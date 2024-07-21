@@ -1,0 +1,3 @@
+[submodule "CakeKiCadLib"]
+	path = CakeKiCadLib
+	url = git@github.com:jwpleow/CakeKiCadLib.git
