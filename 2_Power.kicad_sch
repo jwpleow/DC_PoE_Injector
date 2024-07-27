@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "38cd4540-799e-47ad-91ad-7e2285d87c52")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 18.034 122.682)
+		(end 115.824 192.532)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41f118a1-d5ca-47bf-ba72-a47ca2ac48c2)
+	)
+	(rectangle
+		(start 17.78 16.51)
+		(end 162.56 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c85e3e43-9558-4e86-9a8c-239ecfea7ef3)
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 22.86 125.73 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "a68d3db3-855d-4141-8d3a-c23314ed8df3")
+	)
+	(text "48V"
+		(exclude_from_sim no)
+		(at 21.844 20.066 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "d5ede692-5144-4627-9ac9-eb00fcb69c99")
+	)
+)
