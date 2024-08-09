@@ -19,9 +19,13 @@ It's too hard to find an injector that takes in DC power
 | LM5155QDSSRQ1 | Boost Converter | | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-LM5155QDSSRQ1/C1849528) |
 
 ## References
-- [TPS23861 Evaluation Module](https://www.ti.com/lit/ug/sluuay8e/sluuay8e.pdf?ts=1722024976073&ref_url=http%253A%252F%252Fti.com%252Fproduct%252FTPS23861)
+- [TPS23861 Datasheet](https://www.ti.com/lit/ds/symlink/tps23861.pdf)
+- [TPS23861 Evaluation Module](https://www.ti.com/lit/ug/sluuay8e/sluuay8e.pdf)
+- [TPS23861 Power-On Considerations](https://www.ti.com/lit/an/slva723/slva723.pdf)
 - [MAX5945EV Kit](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX5945EVKIT-MAX5945EVSYS.pdf)
 
 
 
 
+### JLCPCB Manufacturing Notes
+4 Layer JLC04161H-7628 - For 100Ohm impedance - 0.127mm trace spacing, 0.1402mm trace width
