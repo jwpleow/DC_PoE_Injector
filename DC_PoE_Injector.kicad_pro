@@ -58,21 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|108312500|129987500|8eac8098-42a1-4845-87f2-18e50e5e0e96|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|48720000|122940000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|ea8ee0d2-3319-4593-9d37-a02c66d9b9e9",
-        "silk_edge_clearance|48720000|80010000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|966ce762-be6b-4932-a105-318ea31be75d",
-        "silk_edge_clearance|48742641|122940000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|8a3059a3-92ab-46bf-8bf4-f1083d7311d8",
-        "silk_edge_clearance|48742641|139200000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|36b44ea3-4812-47a7-a2b3-241c10a26da5",
-        "silk_edge_clearance|48742641|63090000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|5f7612ef-b9f3-4389-8122-fc771f32ec71",
-        "silk_edge_clearance|48742641|63820440|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|c39467c8-7317-4bd1-8009-e8bcc039d8da",
-        "silk_edge_clearance|48742641|67579560|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|ad5ee9fc-0a0e-4461-871e-29aec02a23f0",
-        "silk_edge_clearance|48742641|68820440|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|38640acd-4e1d-4851-bb53-2468c0e45980",
-        "silk_edge_clearance|48742641|72579560|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|663cb0fa-9602-42c2-84ce-1be1b6f605b2",
-        "silk_edge_clearance|48742641|74710000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|7e80da73-2df7-447a-8394-245f78e5c68c",
-        "silk_edge_clearance|48742641|80010000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|491e801e-7ec7-4920-b98f-378289f258d6",
-        "silk_edge_clearance|48742641|96270000|d8ce3357-9b99-441d-89fa-82cc4ac1fef7|b778dd58-d919-4d88-8f2e-76938311c5d3"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -147,7 +133,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
