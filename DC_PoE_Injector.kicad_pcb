@@ -19120,14 +19120,54 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PoE Out"
-		(at 66.25 91.25 270)
+	(gr_text "PoE OUT"
+		(at 66.25 81.75 270)
 		(layer "F.SilkS")
 		(uuid "b5d7730b-f2c5-4663-80ac-f6df8ca3e6cd")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.153)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ETH IN"
+		(at 65.75 125.5 270)
+		(layer "F.SilkS")
+		(uuid "ced009f1-93ee-42ca-9a98-8b3c34e1bbb8")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 64 70 270)
+		(layer "F.SilkS")
+		(uuid "d5a86edf-3461-46da-b0f5-fe6eeb7ae19d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 64 63.25 270)
+		(layer "F.SilkS")
+		(uuid "f239e243-a760-414c-bbeb-9db5dc67886c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -28664,7 +28704,6 @@
 		(polygon
 			(pts
 				(xy 78.8 104.6) (xy 84.2 104.6) (xy 84.2 114.4) (xy 78.6 114.4) (xy 72.8 109.4) (xy 72.8 108) (xy 76.4 104.6)
-				(xy 78.8 104.6)
 			)
 		)
 		(filled_polygon
