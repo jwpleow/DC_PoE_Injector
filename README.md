@@ -1,4 +1,4 @@
-# 802.3at PoE Injector, Mode B, using DC power input
+# 802.3at PoE Injector, Mode B, with 12-32Vdc Input
 
 It's too hard to find a midspan injector that takes in DC voltage.. (e.g. Phihong POE30D-1ATP-R / POE20D-1AF-R is a little hard to get a hold of)   
 
