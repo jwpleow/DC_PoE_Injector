@@ -2,6 +2,8 @@
 
 It's too hard to find a midspan injector that takes in DC voltage.. (e.g. Phihong POE30D-1ATP-R / POE20D-1AF-R is a little hard to get a hold of)   
 
+Disclaimer: Amateur hobbyist-grade work. I've got it printed and assembled by JLCPCB and used it successfully.
+
 ## JLCPCB Manufacturing Notes
 Designed for the 4 Layer `JLC04161H-7628` - For 100Ohm impedance - 0.127mm trace spacing, 0.1402mm trace width
 
