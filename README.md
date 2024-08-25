@@ -1,6 +1,9 @@
 # 802.3at PoE Injector, Mode B, using DC power input
 
-It's too hard to find an injector that takes in DC power
+It's too hard to find a midspan injector that takes in DC voltage.. (e.g. Phihong POE30D-1ATP-R / POE20D-1AF-R is a little hard to get a hold of)   
+
+## JLCPCB Manufacturing Notes
+Designed for the 4 Layer `JLC04161H-7628` - For 100Ohm impedance - 0.127mm trace spacing, 0.1402mm trace width
 
 ## Core Components
 
@@ -16,7 +19,7 @@ It's too hard to find an injector that takes in DC power
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
 | TPS7B8233QDGNRQ1 | 2.5-40V input, 3.3V 300mA output LDO | [Datasheet](https://www.ti.com/lit/ds/symlink/tps7b82-q1.pdf)  | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TLV709A33DBVR/C21574006 ) | 
-| LM5155QDSSRQ1 | Boost Converter | | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-LM5155QDSSRQ1/C1849528) |
+| LM5155QDSSRQ1 | Boost Converter | [Datasheet](https://www.ti.com/lit/ds/symlink/lm5155-q1.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-LM5155QDSSRQ1/C1849528) |
 
 ## References
 - [TPS23861 Datasheet](https://www.ti.com/lit/ds/symlink/tps23861.pdf)
@@ -27,5 +30,3 @@ It's too hard to find an injector that takes in DC power
 
 
 
-### JLCPCB Manufacturing Notes
-4 Layer JLC04161H-7628 - For 100Ohm impedance - 0.127mm trace spacing, 0.1402mm trace width
